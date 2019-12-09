@@ -35,7 +35,7 @@ public class TestServlet extends HttpServlet {
 		
 		request.setCharacterEncoding("UTF-8");
 		
-		// Board 전체 리스트 조회
+		// Board 전체 리스트 조회g
 		ArrayList<Board> list = new BoardService().selectNewsfeedList();
 		request.setAttribute("list", list);
 		
