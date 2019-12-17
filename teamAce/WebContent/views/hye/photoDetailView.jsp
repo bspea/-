@@ -72,17 +72,15 @@
             border-top: 1px solid #dddfe2;
         }
         .top2>div{height:100%;}
-        .lTopArea2{width:20%;}
+        .lTopArea2{width:20%; text-align: center;}
         .mTopArea2{width:50%;}
         .rTopArea{width:30%;}
         
         /* 작성자 정보영역 */
         #wImg{
             border-radius: 35px;
-            width:100%;
-            height:100%;
-            max-width: 50px;
-    		max-height: 50px;
+            width:40px;
+          	height:40px;
         }
         .mTopArea2>div{
             height:50%;
@@ -255,7 +253,8 @@
             border-radius: 20px;
             border: 1.5px solid #ccd0d5;
             margin:auto;
-            width:80%;
+            width:40px;
+            height:40px;
         }
        .cWriteArea2{
         width:85%;
@@ -1114,7 +1113,7 @@
 			 			
 			 			var $youComment2 = $("<div>").css({"height":"auto", "display":"flex"});
 			 			var $yImgArea2 = $("<div>").css({"width":"15%", "display":"flex"});
-			 			var $userImg2 = $("<img>").attr("src",value.profileImage).css({"border-radius":"20px","margin":"auto","width":"80%","border": "0.5px solid #ccd0d5"});
+			 			var $userImg2 = $("<img>").attr("src",value.profileImage).css({"border-radius":"20px","margin":"auto","border": "0.5px solid #ccd0d5","width":"40px", "height":"40px"});
 			 			
 			 			var $cWriteArea2 = $("<div>").css({"width":"85%","height":"auto"});
 			 			

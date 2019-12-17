@@ -162,8 +162,8 @@
           top:0;
           right:0;
           left:0;
-          max-height: 40px;
-    	  max-width: 50px;
+          height: 40px;
+    	  width: 40px;
       }
 
       /* 뉴스피드 영역 */
@@ -249,8 +249,8 @@
       }
       #wImg{
           border-radius: 35px;
-          width:100%;
-          height:100%;
+          width:40px;
+          height:40px;
           max-height: 70px;
       }
       .mTopArea>div, .mTopArea2>div{
@@ -1648,7 +1648,7 @@
 							
 							var $youComment2 = $("<div>").css({"height":"auto", "display":"flex","padding-left":"10px"});
 				 			var $yImgArea2 = $("<div>").css({"width":"10%" });
-				 			var $userImg2 = $("<img>").attr("src",value.profileImage).css({"border-radius":"20px","margin":"auto","width":"80%","border": "0.5px solid #ccd0d5","max-width":"50px", "max-height":"50px"});
+				 			var $userImg2 = $("<img>").attr("src",value.profileImage).css({"border-radius":"20px","margin":"auto","border": "0.5px solid #ccd0d5","width":"40px", "height":"40px"});
 				 			
 				 			var $cWriteArea2 = $("<div>").css({"width":"85%","height":"auto","padding-left":"10px"});
 				 			
